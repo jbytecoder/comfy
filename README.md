@@ -10,7 +10,7 @@ This repository holds configuration for
 In order to install just run
 
 ```
-wget https://raw.githubusercontent.com/jbytecoder/comfy/refs/heads/main/install | bash
+wget https://raw.githubusercontent.com/jbytecoder/comfy/refs/heads/main/install -O - | bash
 ```
 
 ### Why comfy ?
