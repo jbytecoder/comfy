@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+wget https://raw.githubusercontent.com/jbytecoder/comfy/refs/heads/main/bash_aliases -O ~/.bash_aliases
