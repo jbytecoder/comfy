@@ -1,4 +1,4 @@
-alias comfy='wget https://raw.githubusercontent.com/jbytecoder/comfy/refs/heads/main/install -O - | bash | source ~/.bash_aliases'
+alias comfy='wget https://raw.githubusercontent.com/jbytecoder/comfy/refs/heads/main/install -O - | bash && source ~/.bash_aliases'
 
 alias cd..='cd ..'
 alias cl='clear'
@@ -12,6 +12,7 @@ duAll() {
   du -hsx $path* $path.* | sort -rh
 }
 alias ds='duAll'
+alias me='whoami'
 
 # git
 alias gs='git status -sb'
